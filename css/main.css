@@ -8,10 +8,7 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 .container {
-  top: 0;
-  bottom: 0;
-  left: auto;
-  right: auto;
+  margin:0 auto 0 auto;
   max-width: 1170px;
 }
 section {
@@ -44,6 +41,8 @@ section {
 }
 .btn-default, .btn-primary {
   color: white;
+}
+.btn-default {
   background-color: #faa541;
 }
 .btn-primary {
