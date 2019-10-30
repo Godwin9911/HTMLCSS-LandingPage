@@ -172,11 +172,11 @@ section {
   font-weight: 400;
   margin-top: 5px;
 }
-.cartegory {
+.category {
   flex: 0 0 25%;
   padding: 0 15px;
 }
-.cartegory img {
+.category img {
   width: 100%;
 }
 .category-text {
