@@ -206,8 +206,11 @@ section {
 .full-banner:before {
   content: "";
   position: absolute;
-  border: 1px solid #ffffff;
-  border: 30px, 30px, 50px, 50px;
+  border: 1px solid #ffffff; 
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
   z-index: 1;
 }
 .full-banner-image {
@@ -220,13 +223,16 @@ section {
 .full-banner-sidebar {
   flex: 0 0 41.666667%;
   background-color: #364147;
-  padding: 30xpx;
   color: #ffffff;
   text-transform: uppercase;
   padding: 30px;
 }
 .full-banner-sidebar h4 {
-  font: italic 40px 700 #637f94 1;
+  font-size: 40px;
+  font-weight: 700;
+  color: #637f94;
+  font-style: italic;
+  line-height: 1;
 }
 
 .full-banner-sidebar h4:after {
