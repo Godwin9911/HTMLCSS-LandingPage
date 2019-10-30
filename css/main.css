@@ -102,11 +102,11 @@ section {
 .nav-list li a {
   font-size: 16px;
   font-weight: 700;
-  line-height: 0.2px;
+  letter-spacing: 0.2px;
   text-transform: uppercase;
 }
 .profile {
-  margin: auto;
+  margin-left: auto;
 }
 .account {
   text-align: right;
